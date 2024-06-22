@@ -1,0 +1,240 @@
+#fondo{
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -20;
+    opacity: 85%;
+}
+#principal{
+    width: 400px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body{
+    background-color: beige;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+}
+#menu li{
+    list-style-type: none;
+    margin: 5px;
+    color: #9A3733;
+}
+#menu li:hover{
+    opacity: 0.5;
+}
+#menu li a{
+    text-decoration: none;
+    padding: 5px;
+    color: #9A3733;
+    font-size: 28px;
+    font-weight: bold;
+}
+#menu li i{
+    font-size: 16.4px;
+}
+main{
+    width: 50%;
+    height: 1500px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: #F4AE67;
+}
+h2{
+    font-size: 30px;
+    color: #9A3733;
+}
+h3{
+    text-align: center;
+    margin-left: 110px;
+    font-size: 30px;
+    color: #9A3733;
+}
+#nombre{
+    float: right;
+    font-size: 13px;
+    margin-top: -35px;
+    margin-right: 25px;
+    color: peru;
+}
+p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pie{
+    font-size: 25px;
+    color: #9A3733;
+}
+.descrip{
+    font-size: 20px;
+    color: #F4AE67;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#iconos{
+    font-size: 50px;
+}
+#iconos a{
+    color: black;
+}
+#imagen_blog{
+    text-align: center;
+}
+#imagen_blog img{
+    width: 700px;
+    height: 500px;
+}
+#empresario{
+    width: 65px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 40px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: beige;
+}
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure{
+    border: 1px solid #F4AE67;
+    padding: 20px;
+    text-align: center;
+}
+figure img{
+    width: 200px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+figcaption{
+    padding: 10px;
+    font-size: 30px;
+    color: #9A3733;
+}
+#youtube, #vimeo, #mivideo, footer{
+    text-align: center;
+}
+#logo{
+    float: left;
+    padding: 10px;
+}
+#nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    background: linear-gradient(125deg, #F4AE67, #9A3733);
+}
+#art p{
+    font-size: none;
+    font-family: none;
+}
+#art img{
+    width: 180px;
+    margin-top: 15px;
+    margin-left: 90px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #9A3733;
+}
+.hora{
+    border: 1px solid white;
+    padding: 0 5px;
+}
+h5{
+    color: #9A3733;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+h6{
+    font-size: 20px;
+    margin: 10px 0 -15px;
+}
+table{
+    border-collapse: collapse;
+    border-color: white;
+}
+table tr th{
+    display: flex;
+    width: 100px;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+input{
+    width: 300px;
+    height: 18px;
+}
+#mensaje{
+    width: 302px;
+    height: 145px;
+}
+#boton{
+    width: 308px;
+    height: 25px;
+    color: white;
+    background-color: gray;
+}
+.mapa{
+    border: 1px solid #9A3733;
+    width: 600px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "div div div"
+                         "nav nav aside"
+                         "article article aside"
+                         "pie pie pie";
+    gap: 10px;
+}
+.nosotros{
+    background-color: #9A3733;
+    grid-area: div;
+}
+.nosotros h5{
+    color: #F4AE67;
+}
+.somos{
+    grid-area: nav;
+}
+.somos h6{
+    color: #9A3733;
+}
+.img1{
+    grid-area: aside;
+
+}
+.img2{
+    grid-area: article;
+    margin: 0 30px; 
+    padding: 0 20px;
+}
+.pie{
+    grid-area: pie;
+    background-color: #9A3733;
+    color: #F4AE67;
+    text-align: center;
+}
+hr{
+    border: 1px solid #9A3733;
+}
